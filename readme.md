@@ -19,3 +19,15 @@ ghci
 > main
 ["012","021","102","120","201","210"]
 ```
+
+# tests
+```bash
+cabal update
+cabal install hspec
+runhaskell euler24.spec.hs
+# euler24.firstTry
+#   returns the permutations
+#   returns the correct permutation
+# 
+# Finished in 8.0976 seconds
+```
